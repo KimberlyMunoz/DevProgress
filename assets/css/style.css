@@ -4,13 +4,17 @@
    clear: both;
 }*/
 
-#spacer{
-min-height: 500px;
-position:fixed;
+#spacer {
+  min-height: 500px;
+  position:fixed;
 }
 
 .main-section.right {
   overflow: scroll;
+}
+
+.section-header {
+  color: #737373;
 }
 
 @media (min-width: 768px) {
@@ -20,7 +24,7 @@ position:fixed;
     width: 60%;
   }
 
-  .bottombuffer{
+  .bottombuffer {
     margin-bottom: 150px;
   }
 
